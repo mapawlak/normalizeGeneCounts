@@ -9,7 +9,9 @@ normalizeGeneCounts(counts, TxDb, method)
 ## Arguments
 
 counts  A data frame with gene ID in rownames and sample ID in colnames
+
 TxDb    `GenomicFeatures` object created from the same gtf as counts object
+
 method  Should be "CPM", "RPKM" or "TPM"
 
 ## Example
