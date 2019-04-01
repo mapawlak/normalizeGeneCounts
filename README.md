@@ -15,5 +15,6 @@ TxDb    `GenomicFeatures` object created from the same gtf as counts object
 method  Should be "CPM", "RPKM" or "TPM"
 
 ## Example
-
+```
 CPM <- normalizeCounts(counts, TxDb, method = "CPM")
+```
